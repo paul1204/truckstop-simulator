@@ -2,18 +2,19 @@ from config import FUEL_CONFIG
 import time
 import requests
 
-BACKEND_URL = "http://localhost:8080/api/inventory/fuel/update/RegularFuel/FIFO"
+BACKEND_URL = "http://localhost:8080/fuel/update/Diesel/FIFO"
 
 payload = {
-    "octane": 87,
-    "gallonsSold": 10,  # example value
-    "totalPrice": 39.99  # example value
+    "octane": 0,
+    "gallonsSold": 1500.00,
+    "totalPrice": 39.99,
+    "specialMessage": "test"
 }
 
-NUM_REQUESTS = FUEL_CONFIG["regular"]["NUM_REQUESTS"]
-INTERVAL_SECONDS = FUEL_CONFIG["regular"]["INTERVAL_SECONDS"]
+NUM_REQUESTS = FUEL_CONFIG["diesel"]["NUM_REQUESTS"]
+INTERVAL_SECONDS = FUEL_CONFIG["diesel"]["INTERVAL_SECONDS"]
 
-def pump_regular_fuel():
+def pump_diesel_fuel():
     for i in range(NUM_REQUESTS):
         try:
             print("Sending fuel pump simulation...")
@@ -24,4 +25,4 @@ def pump_regular_fuel():
         time.sleep(INTERVAL_SECONDS)
 
 if __name__ == "__main__":
-    pump_regular_fuel() 
+    pump_diesel_fuel() 
