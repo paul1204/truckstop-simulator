@@ -67,14 +67,15 @@ def show_main_menu():
     print("2. Generate and send monthly reports")
     print("3. Generate and send yearly reports")
     print("4. Generate reports in memory only (no API call)")
-    print("5. Exit")
+    print("5. Simulate shift reports (interval-based)")
+    print("6. Exit")
 
 def main():
     """Main function to demonstrate in-memory shift report generation and API integration"""
     while True:
         try:
             show_main_menu()
-            choice = input("\nEnter your choice (1-5): ").strip()
+            choice = input("\nEnter your choice (1-6): ").strip()
         
             if choice == "1":
                 print("\n--- Single Shift Report ---")
@@ -238,12 +239,21 @@ def main():
                 input("\nPress Enter to return to main menu...")
                 
             elif choice == "5":
+                print("\n--- Simulate Shift Reports (Interval-based) ---")
+                
+                # Import and run the simulation
+                from simulate_shifts import simulate_shifts
+                simulate_shifts()
+                
+                input("\nPress Enter to return to main menu...")
+                
+            elif choice == "6":
                 print("\n=== Exiting Gas Station Shift Report Generator ===")
                 print("Thank you for using the system!")
                 break
                 
             else:
-                print("Invalid choice. Please select 1-5.")
+                print("Invalid choice. Please select 1-6.")
                 input("\nPress Enter to continue...")
                 
         except KeyboardInterrupt:
