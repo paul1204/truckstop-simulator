@@ -1,23 +1,34 @@
-from config import FUEL_CONFIG
+from config import FUEL_CONFIG, MAX_FUEL_GALLONS
 import time
 import requests
+import random
 
 BACKEND_URL = "http://localhost:8080/fuel/update/RegularFuel/FIFO"
 
-payload = {
-    "octane": 87,
-    "gallonsSold": 500.00,
-    "totalPrice": 39.99,
-    "specialMessage": "test"
-}
-
 NUM_REQUESTS = FUEL_CONFIG["regular"]["NUM_REQUESTS"]
 INTERVAL_SECONDS = FUEL_CONFIG["regular"]["INTERVAL_SECONDS"]
+OCTANE = FUEL_CONFIG["regular"]["OCTANE"]
+PRICE_PER_GALLON = FUEL_CONFIG["regular"]["PRICE_PER_GALLON"]
 
 def pump_regular_fuel():
     for i in range(NUM_REQUESTS):
         try:
-            print("Sending fuel pump simulation...")
+            # Generate random gallons sold (1 to MAX_FUEL_GALLONS)
+            gallons_sold = round(random.uniform(1.0, MAX_FUEL_GALLONS), 2)
+            
+            # Calculate total price
+            total_price = round(gallons_sold * PRICE_PER_GALLON, 2)
+            
+            payload = {
+                "octane": OCTANE,
+                "gallonsSold": gallons_sold,
+                "totalPrice": total_price,
+                "specialMessage": "test"
+            }
+            
+            print(f"Sending fuel pump simulation {i+1}/{NUM_REQUESTS}...")
+            print(f"  Gallons: {gallons_sold}, Price per gallon: ${PRICE_PER_GALLON}, Total: ${total_price}")
+            
             response = requests.put(BACKEND_URL, json=payload, headers={"Content-Type": "application/json"})
             print(f"Response: Status {response.status_code}, Body: {response.text}")
         except Exception as e:
