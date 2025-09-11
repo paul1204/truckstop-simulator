@@ -1,0 +1,6 @@
+ID,Product Name,Price,Brand,Quantity,Size,ItemType
+100,Coke,1.99,CPU Cooling Power Beverage,20,20oz,D
+101,Diet Coke,1.99,CPU Cooling Power Beverage,20,20oz,D
+991,Popcorn,1.25,Orville,15,L,NR
+990,Snickers Bar,1.50,Mars,20,M,NR
+Totals,626.00

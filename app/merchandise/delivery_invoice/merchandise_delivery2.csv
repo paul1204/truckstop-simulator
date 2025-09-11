@@ -1,0 +1,103 @@
+ID,Product Name,Price,Brand,Quantity,Size,ItemType
+1000,Coke,1.99,CPU Cooling Power Beverages,20,20oz,D
+1001,Diet Coke,1.99,CPU Cooling Power Beverages,20,20oz,D
+1002,Sprite,1.99,CPU Cooling Power Beverages,20,20oz,D
+1003,Ginger Ale,1.99,CPU Cooling Power Beverages,20,20oz,D
+1004,Sprite Zero,1.99,CPU Cooling Power Beverages,20,20oz,D
+1005,Pepsi,1.99,CPU Cooling Power Beverages,20,20oz,D
+1006,Diet Pepsi,1.99,CPU Cooling Power Beverages,20,20oz,D
+1007,Mountain Dew,1.99,CPU Cooling Power Beverages,20,20oz,D
+1008,Dr Pepper,1.99,CPU Cooling Power Beverages,20,20oz,D
+1009,7UP,1.99,CPU Cooling Power Beverages,20,20oz,D
+1010,Root Beer,1.99,CPU Cooling Power Beverages,20,20oz,D
+1011,Orange Soda,1.99,CPU Cooling Power Beverages,20,20oz,D
+1012,Grape Soda,1.99,CPU Cooling Power Beverages,20,20oz,D
+1013,Lemon-Lime Soda,1.99,CPU Cooling Power Beverages,20,20oz,D
+1014,Cherry Cola,1.99,CPU Cooling Power Beverages,20,20oz,D
+1015,Vanilla Cola,1.99,CPU Cooling Power Beverages,20,20oz,D
+1016,Energy Drink,2.49,CPU Cooling Power Beverages,15,16oz,D
+1017,Sports Drink,2.29,CPU Cooling Power Beverages,15,20oz,D
+1018,Lemonade,1.99,CPU Cooling Power Beverages,20,20oz,D
+1019,Iced Tea,1.99,CPU Cooling Power Beverages,20,20oz,D
+1020,Sweet Tea,1.99,CPU Cooling Power Beverages,20,20oz,D
+1021,Green Tea,1.99,CPU Cooling Power Beverages,20,20oz,D
+1022,Fruit Punch,1.99,CPU Cooling Power Beverages,20,20oz,D
+1023,Cranberry Juice,2.29,CPU Cooling Power Beverages,15,16oz,D
+1024,Apple Juice,2.29,CPU Cooling Power Beverages,15,16oz,D
+1025,Orange Juice,2.29,CPU Cooling Power Beverages,15,16oz,D
+1026,Grape Juice,2.29,CPU Cooling Power Beverages,15,16oz,D
+1027,Pineapple Juice,2.29,CPU Cooling Power Beverages,15,16oz,D
+1028,Coconut Water,2.49,CPU Cooling Power Beverages,15,16oz,D
+1029,Sparkling Water,1.79,CPU Cooling Power Beverages,20,20oz,D
+1030,Bottled Water,1.49,CPU Cooling Power Beverages,24,16.9oz,D
+1031,Flavored Water,1.79,CPU Cooling Power Beverages,20,20oz,D
+1032,Chocolate Milk,2.29,CPU Cooling Power Beverages,15,16oz,D
+1033,Strawberry Milk,2.29,CPU Cooling Power Beverages,15,16oz,D
+1034,Vanilla Milk,2.29,CPU Cooling Power Beverages,15,16oz,D
+1035,Almond Milk,2.49,CPU Cooling Power Beverages,12,16oz,D
+1036,Soy Milk,2.49,CPU Cooling Power Beverages,12,16oz,D
+1037,Oat Milk,2.49,CPU Cooling Power Beverages,12,16oz,D
+1038,Cold Brew Coffee,2.99,CPU Cooling Power Beverages,12,12oz,D
+1039,Iced Coffee,2.79,CPU Cooling Power Beverages,12,16oz,D
+1040,Mocha Frappe,2.99,CPU Cooling Power Beverages,12,16oz,D
+1041,Vanilla Frappe,2.99,CPU Cooling Power Beverages,12,16oz,D
+1042,Caramel Frappe,2.99,CPU Cooling Power Beverages,12,16oz,D
+1043,Protein Shake,3.49,CPU Cooling Power Beverages,10,16oz,D
+1044,Meal Replacement Shake,3.99,CPU Cooling Power Beverages,10,16oz,D
+1045,Smoothie,3.49,CPU Cooling Power Beverages,10,16oz,D
+1046,Kombucha,3.29,CPU Cooling Power Beverages,10,16oz,D
+1047,Vitamin Water,2.49,CPU Cooling Power Beverages,15,20oz,D
+1048,Electrolyte Drink,2.49,CPU Cooling Power Beverages,15,20oz,D
+1049,Tonic Water,1.99,CPU Cooling Power Beverages,20,20oz,D
+1050,Club Soda,1.99,CPU Cooling Power Beverages,20,20oz,D
+2000,Chips,1.00,Random Bytes Co.,20,M,NR
+2001,Spicy Chips,1.00,Random Bytes Co.,20,M,NR
+2002,Cookies,1.00,Random Bytes Co.,20,12pk,NR
+2003,Donut,1.00,Random Bytes Co.,20,6pk,NR
+2004,Chocolate Cup,1.00,Random Bytes Co.,20,M,NR
+2005,Pretzels,1.50,Random Bytes Co.,15,M,NR
+2006,BBQ Chips,1.50,Random Bytes Co.,15,M,NR
+2007,Brownies,1.25,Random Bytes Co.,25,8pk,NR
+2008,Popcorn,1.25,Random Bytes Co.,15,L,NR
+2009,Chocolate Bar,1.50,Random Bytes Co.,20,M,NR
+2010,Potato Chips,1.50,Random Bytes Co.,15,M,NR
+2011,Tortilla Chips,1.50,Random Bytes Co.,15,M,NR
+2012,Corn Chips,1.50,Random Bytes Co.,15,M,NR
+2013,Cheese Puffs,1.50,Random Bytes Co.,15,M,NR
+2014,Cheese Crackers,1.25,Random Bytes Co.,20,M,NR
+2015,Peanut Butter Crackers,1.25,Random Bytes Co.,20,M,NR
+2016,Graham Crackers,1.25,Random Bytes Co.,20,M,NR
+2017,Animal Crackers,1.25,Random Bytes Co.,20,M,NR
+2018,Chocolate Chip Cookies,1.50,Random Bytes Co.,15,12pk,NR
+2019,Oatmeal Cookies,1.50,Random Bytes Co.,15,12pk,NR
+2020,Peanut Butter Cookies,1.50,Random Bytes Co.,15,12pk,NR
+2021,Sugar Cookies,1.50,Random Bytes Co.,15,12pk,NR
+2022,Sandwich Cookies,1.50,Random Bytes Co.,15,12pk,NR
+2023,Vanilla Wafers,1.25,Random Bytes Co.,20,M,NR
+2024,Chocolate Cupcakes,1.75,Random Bytes Co.,12,2pk,NR
+2025,Vanilla Cupcakes,1.75,Random Bytes Co.,12,2pk,NR
+2026,Cinnamon Rolls,1.75,Random Bytes Co.,12,4pk,NR
+2027,Honey Bun,1.50,Random Bytes Co.,15,1pk,NR
+2028,Fruit Pie,1.75,Random Bytes Co.,12,1pk,NR
+2029,Caramel Popcorn,1.75,Random Bytes Co.,12,M,NR
+2030,Cheese Popcorn,1.75,Random Bytes Co.,12,M,NR
+2031,Kettle Corn,1.75,Random Bytes Co.,12,M,NR
+2032,Caramel Chocolate Bar,1.75,Random Bytes Co.,15,M,NR
+2033,Peanut Chocolate Bar,1.75,Random Bytes Co.,15,M,NR
+2034,Almond Chocolate Bar,1.75,Random Bytes Co.,15,M,NR
+2035,Dark Chocolate Bar,1.75,Random Bytes Co.,15,M,NR
+2036,White Chocolate Bar,1.75,Random Bytes Co.,15,M,NR
+2037,Chocolate Covered Nuts,2.00,Random Bytes Co.,12,M,NR
+2038,Trail Mix,2.00,Random Bytes Co.,12,M,NR
+2039,Mixed Nuts,2.25,Random Bytes Co.,10,M,NR
+2040,Peanuts,1.50,Random Bytes Co.,15,M,NR
+2041,Cashews,2.50,Random Bytes Co.,10,M,NR
+2042,Almonds,2.50,Random Bytes Co.,10,M,NR
+2043,Pistachios,2.50,Random Bytes Co.,10,M,NR
+2044,Sunflower Seeds,1.50,Random Bytes Co.,15,M,NR
+2045,Beef Jerky,3.00,Random Bytes Co.,10,M,NR
+2046,Meat Stick,1.75,Random Bytes Co.,15,1pk,NR
+2047,Cheese Stick,1.50,Random Bytes Co.,15,1pk,NR
+2048,Granola Bar,1.50,Random Bytes Co.,15,1pk,NR
+2049,Protein Bar,2.50,Random Bytes Co.,10,1pk,NR
+Totals,3177.50
