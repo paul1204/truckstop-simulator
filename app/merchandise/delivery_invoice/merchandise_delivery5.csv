@@ -1,0 +1,22 @@
+ID,Product Name,Price,Brand,Quantity,Size,ItemType
+5000,Cola Fizz,2.40,Evergreen Supply,250,20oz,D
+5001,Diet Cola Fizz,2.40,Evergreen Supply,250,20oz,D
+5002,Citrus Twist Fizz,2.40,Evergreen Supply,250,20oz,D
+5003,Ginger Brew Fizz,2.40,Evergreen Supply,250,20oz,D
+5004,Orange Spark Fizz,2.40,Evergreen Supply,250,20oz,D
+5005,Root Brew Fizz,2.40,Evergreen Supply,250,20oz,D
+5006,Citrus Energy Fizz,2.40,Evergreen Supply,250,16oz,D
+5007,Berry Sports Fizz,2.40,Evergreen Supply,250,20oz,D
+5008,Black Tea Blend,2.40,Evergreen Supply,250,16oz,D
+5009,Herbal Iced Tea Blend,2.40,Evergreen Supply,250,16oz,D
+5010,Potato Chips Select,3.40,Evergreen Supply,250,M,NR
+5011,Tortilla Chips Select,3.40,Evergreen Supply,250,M,NR
+5012,Cheese Puffs Select,3.40,Evergreen Supply,250,M,NR
+5013,Salted Pretzels Select,3.40,Evergreen Supply,250,M,NR
+5014,Butter Popcorn Select,3.40,Evergreen Supply,250,L,NR
+5015,Granola Bars Select,3.40,Evergreen Supply,250,1pk,NR
+5016,Trail Mix Select,3.40,Evergreen Supply,250,M,NR
+5017,Roasted Peanuts Select,3.40,Evergreen Supply,250,M,NR
+5018,Chocolate Chip Cookies Select,3.40,Evergreen Supply,250,12pk,NR
+5019,Vanilla Wafers Select,3.40,Evergreen Supply,250,M,NR
+Totals,14500.00
