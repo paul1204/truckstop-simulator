@@ -7,7 +7,7 @@ from typing import List, Dict
 
 import requests
 
-from app.parking_reservation.config import API_URL, INTERVAL_SECONDS, DEFAULT_RESERVATION_DURATION
+from .config import API_URL, INTERVAL_SECONDS, DEFAULT_RESERVATION_DURATION
 
 # Hard-coded array of spotNumbers from "A1" to "A10"
 SPOT_NUMBERS: List[str] = [f"A{i:02}" for i in range(1, 11)]

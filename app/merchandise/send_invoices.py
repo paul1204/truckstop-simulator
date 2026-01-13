@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 from typing import List
 
-from app.merchandise.config import API_URL, FORM_FIELD_NAME, DELIVERY_INVOICE_DIR, INTERVAL_SECONDS
+from .config import API_URL, FORM_FIELD_NAME, DELIVERY_INVOICE_DIR, INTERVAL_SECONDS
 
 
 def find_csv_files(directory: Path) -> List[Path]:
