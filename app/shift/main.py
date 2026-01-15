@@ -265,5 +265,5 @@ def main():
     
     print("\n=== All operations completed in memory only - no files written to disk ===")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
