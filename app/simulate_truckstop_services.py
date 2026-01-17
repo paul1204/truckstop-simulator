@@ -1,6 +1,8 @@
 import threading
+
+from app.merchandise.order.inventory_readings import simulate_order_inventory
 from fuel.simulate_fuel import simulate_fuel_pump_sale
-from merchandise.simulate_merchandise import simulate_merchandise_delivery
+from app.merchandise.delivery.simulate_merchandise_delivery import simulate_merchandise_delivery
 from parking_reservation.simulate_parking import simulate_parking_reservation
 from restaurant_delivery.simulate_restaurant import simulate_restaurant_delivery
 
@@ -9,7 +11,8 @@ def init():
         simulate_fuel_pump_sale,
         simulate_merchandise_delivery,
         simulate_parking_reservation,
-        simulate_restaurant_delivery
+        simulate_restaurant_delivery,
+
     ]
 
     threads = []
@@ -23,4 +26,5 @@ def init():
         thread.join()
 
 if __name__ == "__main__":
+    simulate_order_inventory()
     init()

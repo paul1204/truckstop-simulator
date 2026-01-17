@@ -1,0 +1,22 @@
+ID,Product Name,Price,Brand,Quantity,Size,ItemType
+100,Coke,1.99,Coca-Cola,20,20oz,D
+101,Diet Coke,1.99,Coca-Cola,20,20oz,D
+102,Sprite,1.99,Coca-Cola,20,20oz,D
+103,Ginger Ale,1.99,Coca-Cola,20,20oz,D
+104,Sprite Zero,1.99,Coca-Cola,20,20oz,D
+999,Chips,1.00,Lays,20,M,NR
+998,Spicy Chips,1.00,Lays,20,M ,NR
+997,Cookies,1.00,Little Debbie,20,12pk ,NR
+996,Donut,1.00,Little Debbie,20,6pk,NR
+995,Reese's Cup,1.00,Hershey,20,M,NR
+105,Pepsi,1.99,PepsiCo,20,20oz,D
+106,Diet Pepsi,1.99,PepsiCo,20,20oz,D
+107,Mountain Dew,1.99,PepsiCo,20,20oz,D
+108,Dr Pepper,1.99,Dr Pepper,20,20oz,D
+109,7UP,1.99,Dr Pepper,20,20oz,D
+994,Pretzels,1.50,Snyder's,15,M,NR
+993,BBQ Chips,1.50,Lays,15,M,NR
+992,Brownies,1.25,Little Debbie,25,8pk,NR
+991,Popcorn,1.25,Orville,15,L,NR
+990,Snickers Bar,1.50,Mars,20,M,NR
+Totals,626.00
