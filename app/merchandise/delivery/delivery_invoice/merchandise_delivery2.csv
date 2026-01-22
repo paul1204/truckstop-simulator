@@ -1,14 +1,14 @@
-ID,Product Name,Price,Brand,Quantity,Size,ItemType
-1000,Coke,1.99,CPU Cooling Power Beverages,20,20oz,D
-1001,Diet Coke,1.99,CPU Cooling Power Beverages,20,20oz,D
-1002,Sprite,1.99,CPU Cooling Power Beverages,20,20oz,D
-1003,Ginger Ale,1.99,CPU Cooling Power Beverages,20,20oz,D
-1004,Sprite Zero,1.99,CPU Cooling Power Beverages,20,20oz,D
-1005,Pepsi,1.99,CPU Cooling Power Beverages,20,20oz,D
-1006,Diet Pepsi,1.99,CPU Cooling Power Beverages,20,20oz,D
-1007,Mountain Dew,1.99,CPU Cooling Power Beverages,20,20oz,D
-1008,Dr Pepper,1.99,CPU Cooling Power Beverages,20,20oz,D
-1009,7UP,1.99,CPU Cooling Power Beverages,20,20oz,D
+ID,Nuka Special,Price,Brand,Quantity,Size,ItemType
+1000,Nuka-Cola,3.49,CPU Cooling Power Beverages,20,20oz,D
+1001,Nuka-Cola Quantum,1.99,CPU Cooling Power Beverages,20,20oz,D
+1002,Nuka-Cola Cherry,1.99,CPU Cooling Power Beverages,20,20oz,D
+1003,Sunset Sarsaparilla,1.99,CPU Cooling Power Beverages,20,20oz,D
+1004,Nuka-Cola Victory,1.99,CPU Cooling Power Beverages,20,20oz,D
+1005,Nuka-Cola Orange,1.99,CPU Cooling Power Beverages,20,20oz,D
+1006,Nuka-Cola Diet,1.99,CPU Cooling Power Beverages,20,20oz,D
+1007,Vim!,1.99,CPU Cooling Power Beverages,20,20oz,D
+1008,Fizz Cola,1.99,CPU Cooling Power Beverages,20,20oz,D
+1009,Retro Root Beer,1.99,CPU Cooling Power Beverages,20,20oz,D
 1010,Root Beer,1.99,CPU Cooling Power Beverages,20,20oz,D
 1011,Orange Soda,1.99,CPU Cooling Power Beverages,20,20oz,D
 1012,Grape Soda,1.99,CPU Cooling Power Beverages,20,20oz,D
@@ -50,16 +50,16 @@ ID,Product Name,Price,Brand,Quantity,Size,ItemType
 1048,Electrolyte Drink,2.49,CPU Cooling Power Beverages,15,20oz,D
 1049,Tonic Water,1.99,CPU Cooling Power Beverages,20,20oz,D
 1050,Club Soda,1.99,CPU Cooling Power Beverages,20,20oz,D
-2000,Chips,1.00,Random Bytes Co.,20,M,NR
-2001,Spicy Chips,1.00,Random Bytes Co.,20,M,NR
-2002,Cookies,1.00,Random Bytes Co.,20,12pk,NR
-2003,Donut,1.00,Random Bytes Co.,20,6pk,NR
-2004,Chocolate Cup,1.00,Random Bytes Co.,20,M,NR
-2005,Pretzels,1.50,Random Bytes Co.,15,M,NR
-2006,BBQ Chips,1.50,Random Bytes Co.,15,M,NR
-2007,Brownies,1.25,Random Bytes Co.,25,8pk,NR
-2008,Popcorn,1.25,Random Bytes Co.,15,L,NR
-2009,Chocolate Bar,1.50,Random Bytes Co.,20,M,NR
+2000,Nuka-Chips,1.00,Random Bytes Co.,20,M,NR
+2001,Spicy Nuka-Chips,1.00,Random Bytes Co.,20,M,NR
+2002,Fancy Lads Cakes,1.00,Random Bytes Co.,20,12pk,NR
+2003,Iggy's Waffles,1.00,Random Bytes Co.,20,6pk,NR
+2004,Nuka Chocolate Cups,1.00,Random Bytes Co.,20,M,NR
+2005,Retro Pretzels,1.50,Random Bytes Co.,15,M,NR
+2006,BBQ BlamCo Chips,1.50,Random Bytes Co.,15,M,NR
+2007,Atomic Brownies,1.25,Random Bytes Co.,25,8pk,NR
+2008,1950s Popcorn,1.25,Random Bytes Co.,15,L,NR
+2009,Nuka Chocolate Bar,1.50,Random Bytes Co.,20,M,NR
 2010,Potato Chips,1.50,Random Bytes Co.,15,M,NR
 2011,Tortilla Chips,1.50,Random Bytes Co.,15,M,NR
 2012,Corn Chips,1.50,Random Bytes Co.,15,M,NR
