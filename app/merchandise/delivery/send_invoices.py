@@ -3,21 +3,23 @@ import time
 from pathlib import Path
 import requests
 from typing import List
+from datetime import datetime, timedelta
 
-from .config import API_URL, FORM_FIELD_NAME, DELIVERY_INVOICE_DIR, INTERVAL_SECONDS
+from .config import API_URL, FORM_FIELD_NAME, DELIVERY_INVOICE_DIR, INTERVAL_SECONDS, DATE
 
 
 def find_csv_files(directory: Path) -> List[Path]:
     return [p for p in directory.glob("*.csv") if p.is_file()]
 
 
-def send_csv_file(file_path: Path) -> dict:
+def send_csv_file(file_path: Path, date: str) -> dict:
     try:
         with file_path.open("rb") as f:
             files = {
                 FORM_FIELD_NAME: (file_path.name, f, "text/csv")
             }
-            response = requests.put(API_URL, files=files, timeout=30)
+            print(date)
+            response = requests.put(API_URL, files=files, data={'date': date}, timeout=30)
 
         result = {
             "success": response.status_code in (200, 201, 202, 204),
@@ -47,9 +49,12 @@ def send_all_invoices():
     print(f"Form field name: {FORM_FIELD_NAME}")
     print(f"Interval between requests: {INTERVAL_SECONDS} seconds\n")
 
+    base_date = datetime.strptime(DATE, '%m/%d/%Y').date()
+
     for idx, csv_path in enumerate(csv_files, start=1):
         print(f"[{idx}/{total}] Sending: {csv_path.name}")
-        result = send_csv_file(csv_path)
+        date_str = (base_date + timedelta(days=idx-1)).strftime('%m/%d/%Y')
+        result = send_csv_file(csv_path, date_str)
         if result.get("success"):
             print(f"  ✓ Success (status {result.get('status_code')})")
         else:

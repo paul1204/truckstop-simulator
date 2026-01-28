@@ -38,7 +38,8 @@ def pump_diesel_fuel(start_time=None):
                 "date": current_time.strftime("%Y-%m-%d"),
                 "daily_shift": START_SHIFT,
                 "dailyShift": START_SHIFT,
-                "specialMessage": "test"
+                "specialMessage": "test",
+                "terminal": "pump1"
             }
             
             print(f"Sending fuel pump simulation {i+1}/{NUM_REQUESTS}...")

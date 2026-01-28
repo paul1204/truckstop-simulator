@@ -37,7 +37,8 @@ def pump_premium_fuel(start_time=None):
                 "salesDate": current_time.strftime("%Y-%m-%dT%H:%M:%S"),
                 "date": current_time.strftime("%Y-%m-%d"),
                 "daily_shift": START_SHIFT,
-                "specialMessage": "test"
+                "specialMessage": "test",
+                "terminal": "pump3"
             }
             
             print(f"Sending fuel pump simulation {i+1}/{NUM_REQUESTS}...")

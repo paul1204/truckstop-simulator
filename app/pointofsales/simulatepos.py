@@ -34,7 +34,8 @@ def simulate_pos_sales():
         total_sales_amount = sum(item["quantity"] * item["unitPrice"] for item in sales_items)
         sales_data = {
             "totalSalesAmount": round(total_sales_amount, 2),
-            "salesItems": sales_items
+            "salesItems": sales_items,
+            "posTerminal": "pos1"
         }
         print("Generated sales_data:")
         print(sales_data)
@@ -44,27 +45,6 @@ def simulate_pos_sales():
         print(f"Sales ingest response status: {response.status_code}")
         print(response.text)
         time.sleep(1)
-
-#    sales_data = {
-#      "totalSalesAmount": 12.85,
-#      "salesItems": [
-#        {
-#          "itemName": "Cola Reserve",
-#          "quantity": 2.0,
-#          "unitPrice": 4.15,
-#          "salesType": "BOTTLED_BEVERAGE",
-#          "skuCode": 4000
-#        },
-#        {
-#          "itemName": "Beef Jerky",
-#          "quantity": 1.0,
-#          "unitPrice": 4.55,
-#          "salesType": "PACKAGED_FOOD",
-#          "skuCode": 4010
-#        }
-#      ]
-#    }
-
 
 if __name__ == "__main__":
     simulate_pos_sales()

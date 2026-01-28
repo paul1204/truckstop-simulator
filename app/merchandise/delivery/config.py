@@ -15,4 +15,6 @@ FORM_FIELD_NAME = "merchandiseInventoryOrder"
 DELIVERY_INVOICE_DIR = Path(__file__).parent / "delivery_invoice"
 
 # Interval (in seconds) between sending each CSV file
-INTERVAL_SECONDS = 5
+INTERVAL_SECONDS = 2
+
+DATE = "01/02/2024"
