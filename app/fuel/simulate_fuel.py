@@ -5,9 +5,10 @@ from .config import num_pumps
 from .pump_diesel_fuel import pump_diesel_fuel
 from .pump_regular_fuel import pump_regular_fuel
 from .pump_premium_fuel import pump_premium_fuel
+from .house_accounts_fuel import simulate_house_accounts_fuel
 
 def run_pump(pump_id):
-    fuel_types = [pump_diesel_fuel, pump_regular_fuel, pump_premium_fuel]
+    fuel_types = [pump_diesel_fuel, pump_regular_fuel, pump_premium_fuel, simulate_house_accounts_fuel]
     fuel_func = random.choice(fuel_types)
     print(f"Pump {pump_id} starting with {fuel_func.__name__}")
     fuel_func()
