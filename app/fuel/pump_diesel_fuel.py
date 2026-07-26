@@ -4,7 +4,7 @@ import requests
 import random
 from datetime import datetime, timedelta
 
-BACKEND_URL = "http://localhost:9000/fuel/update/Diesel/FIFO"
+from app.api_config import DIESEL_FUEL_URL as BACKEND_URL
 
 NUM_REQUESTS = FUEL_CONFIG["diesel"]["NUM_REQUESTS"]
 INTERVAL_SECONDS = FUEL_CONFIG["diesel"]["INTERVAL_SECONDS"]

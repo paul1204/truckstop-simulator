@@ -4,11 +4,12 @@ import requests
 import json
 from io import BytesIO
 from shift_generator import get_shift_reports_for_api, get_single_shift_report, get_monthly_shift_reports_for_api
+from app.api_config import SHIFT_PROCESSING_BASE_URL
 
 class ShiftReportAPI:
     """Example integration with Spring Boot REST API"""
     
-    def __init__(self, base_url: str = "http://localhost:9000/api/shiftProcessing"):
+    def __init__(self, base_url: str = SHIFT_PROCESSING_BASE_URL):
         self.base_url = base_url
         self.endpoint = f"{self.base_url}/postShift"
     

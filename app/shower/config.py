@@ -1,2 +1,1 @@
-SHOWER_API_URL = "http://localhost:9000/api/showers"
-SHOWER_RESERVE_API_URL = "http://localhost:9000/api/showers/reserve"
+from app.api_config import SHOWER_API_URL, SHOWER_RESERVE_API_URL

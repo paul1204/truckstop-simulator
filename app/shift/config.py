@@ -24,7 +24,7 @@ SHIFT_TYPES = {
 }
 
 # API Configuration
-DEFAULT_API_BASE_URL = "http://localhost:9000/api/shiftProcessing"
+from app.api_config import SHIFT_PROCESSING_BASE_URL as DEFAULT_API_BASE_URL
 
 # Month names for user selection
 MONTHS = {

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from datetime import timedelta
-API_URL = "http://localhost:9000/api/parking/reserve"
+from app.api_config import PARKING_RESERVE_URL as API_URL
 
 # Seconds between sending each reservation request
 INTERVAL_SECONDS = 1

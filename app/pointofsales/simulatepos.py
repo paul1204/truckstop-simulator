@@ -1,4 +1,5 @@
 import requests
+from app.api_config import POS_INGEST_SALES_URL
 import random
 import time
 
@@ -40,7 +41,7 @@ def simulate_pos_sales():
         print("Generated sales_data:")
         print(sales_data)
 
-        url = "http://localhost:9000/pos-ingest/sales"
+        url = POS_INGEST_SALES_URL
         response = requests.post(url, json=sales_data)
         print(f"Sales ingest response status: {response.status_code}")
         print(response.text)

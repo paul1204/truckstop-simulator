@@ -17,19 +17,19 @@ FUEL_PRICES = {
 FUEL_CONFIG = {
     "diesel": {
         "NUM_REQUESTS": 100,
-        "INTERVAL_SECONDS": random.randint(1, 5),
+        "INTERVAL_SECONDS": random.randint(1, 2),
         "OCTANE": 0,
         "PRICE_PER_GALLON": FUEL_PRICES["diesel"]
     },
     "regular": {
         "NUM_REQUESTS": 100,
-        "INTERVAL_SECONDS": random.randint(1, 5),
+        "INTERVAL_SECONDS": random.randint(1, 2),
         "OCTANE": 87,
         "PRICE_PER_GALLON": FUEL_PRICES["regular"]
     },
     "premium": {
         "NUM_REQUESTS": 100,
-        "INTERVAL_SECONDS": random.randint(1, 5),
+        "INTERVAL_SECONDS": random.randint(1, 2),
         "OCTANE": 93,
         "PRICE_PER_GALLON": FUEL_PRICES["premium"]
     }

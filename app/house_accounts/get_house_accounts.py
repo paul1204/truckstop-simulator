@@ -1,7 +1,7 @@
 import requests
 import json
 
-GET_ACCOUNTS_URL = "http://localhost:9000/accounting/house-accounts"
+from app.api_config import GET_ACCOUNTS_URL
 
 def get_house_accounts():
     """
