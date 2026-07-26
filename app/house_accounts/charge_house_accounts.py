@@ -4,8 +4,8 @@ import time
 from app.house_accounts.get_house_accounts import get_house_accounts
 from app.fuel.config import FUEL_PRICES
 
-PATCH_FUEL_URL_TEMPLATE = "http://localhost:8080/truck-driver/fuel/update/Diesel/FIFO/HouseAccount/{houseAccountId}"
-GET_STATUS_URL_TEMPLATE = "http://localhost:8080/accounting/house-accounts/{houseAccountId}/status"
+PATCH_FUEL_URL_TEMPLATE = "http://localhost:9000/truck-driver/fuel/update/Diesel/FIFO/HouseAccount/{houseAccountId}"
+GET_STATUS_URL_TEMPLATE = "http://localhost:9000/accounting/house-accounts/{houseAccountId}/status"
 
 def get_house_account_status(house_account_id):
     """

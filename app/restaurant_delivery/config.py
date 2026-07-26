@@ -6,7 +6,7 @@ Adjust INTERVAL_SECONDS to control the pause between requests.
 from pathlib import Path
 
 # Endpoint configuration
-API_URL = "http://localhost:8080/api/inventory/delivery/restaurant"
+API_URL = "http://localhost:9000/api/inventory/delivery/restaurant"
 
 # Form field name expected by the backend (per API contract)
 FORM_FIELD_NAME = "merchandiseRestaurantOrder"

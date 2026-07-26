@@ -1,2 +1,2 @@
-SHOWER_API_URL = "http://localhost:8080/api/showers"
-SHOWER_RESERVE_API_URL = "http://localhost:8080/api/showers/reserve"
+SHOWER_API_URL = "http://localhost:9000/api/showers"
+SHOWER_RESERVE_API_URL = "http://localhost:9000/api/showers/reserve"

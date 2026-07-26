@@ -3,8 +3,8 @@ import time
 import requests
 import json
 
-GET_ACCOUNTS_URL = "http://localhost:8080/accounting/house-accounts"
-PUT_FUEL_URL_TEMPLATE = "http://localhost:8080/truck-driver/fuel/update/Diesel/FIFO/HouseAccount/{houseAccountId}"
+GET_ACCOUNTS_URL = "http://localhost:9000/accounting/house-accounts"
+PUT_FUEL_URL_TEMPLATE = "http://localhost:9000/truck-driver/fuel/update/Diesel/FIFO/HouseAccount/{houseAccountId}"
 
 def simulate_house_accounts_fuel():
     try:

@@ -8,7 +8,7 @@ from shift_generator import get_shift_reports_for_api, get_single_shift_report, 
 class ShiftReportAPI:
     """Example integration with Spring Boot REST API"""
     
-    def __init__(self, base_url: str = "http://localhost:8080/api/shiftProcessing"):
+    def __init__(self, base_url: str = "http://localhost:9000/api/shiftProcessing"):
         self.base_url = base_url
         self.endpoint = f"{self.base_url}/postShift"
     

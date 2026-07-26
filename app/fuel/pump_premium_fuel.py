@@ -4,7 +4,7 @@ import requests
 import random
 from datetime import datetime, timedelta
 
-BACKEND_URL = "http://localhost:8080/fuel/update/PremiumFuel/FIFO"
+BACKEND_URL = "http://localhost:9000/fuel/update/PremiumFuel/FIFO"
 
 NUM_REQUESTS = FUEL_CONFIG["premium"]["NUM_REQUESTS"]
 INTERVAL_SECONDS = FUEL_CONFIG["premium"]["INTERVAL_SECONDS"]

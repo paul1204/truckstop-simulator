@@ -1,7 +1,7 @@
 import requests
 
 def get_all_merchandise():
-    url = "http://localhost:8080/api/inventory/allMerchandise"
+    url = "http://localhost:9000/api/inventory/allMerchandise"
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -13,7 +13,7 @@ def get_all_merchandise():
         return []
 
 def get_inventory_data():
-    base_url = "http://localhost:8080/api/inventory"
+    base_url = "http://localhost:9000/api/inventory"
     endpoints = [
       #  "/allMerchandise",
         "/bottledBeverages",
@@ -31,7 +31,7 @@ def get_inventory_data():
     return all_inventory
 
 def get_bottled_beverages():
-    url = "http://localhost:8080/api/inventory/bottledBeverages"
+    url = "http://localhost:9000/api/inventory/bottledBeverages"
     response = requests.get(url)
     data = response.json() if response.status_code == 200 else []
 
@@ -41,7 +41,7 @@ def get_bottled_beverages():
 
 
 def get_packaged_food():
-    url = "http://localhost:8080/api/inventory/packagedFood"
+    url = "http://localhost:9000/api/inventory/packagedFood"
     response = requests.get(url)
     data = response.json() if response.status_code == 200 else []
 

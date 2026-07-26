@@ -40,7 +40,7 @@ def simulate_pos_sales():
         print("Generated sales_data:")
         print(sales_data)
 
-        url = "http://localhost:8080/pos-ingest/sales"
+        url = "http://localhost:9000/pos-ingest/sales"
         response = requests.post(url, json=sales_data)
         print(f"Sales ingest response status: {response.status_code}")
         print(response.text)

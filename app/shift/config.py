@@ -24,7 +24,7 @@ SHIFT_TYPES = {
 }
 
 # API Configuration
-DEFAULT_API_BASE_URL = "http://localhost:8080/api/shiftProcessing"
+DEFAULT_API_BASE_URL = "http://localhost:9000/api/shiftProcessing"
 
 # Month names for user selection
 MONTHS = {
