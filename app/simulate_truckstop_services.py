@@ -7,8 +7,11 @@ from app.merchandise.delivery.simulate_merchandise_delivery import simulate_merc
 from parking_reservation.simulate_parking import simulate_parking_reservation
 from restaurant_delivery.simulate_restaurant import simulate_restaurant_delivery
 from house_accounts.charge_house_accounts import charge_house_accounts
+from app.time_management.time_manager import reset_simulation_start, cleanup_simulation_start
 
 def init():
+    reset_simulation_start()
+
     simulations = [
         simulate_order_inventory,
         simulate_fuel_pump_sale,
@@ -29,6 +32,8 @@ def init():
 
     for p in processes:
         p.join()
+
+    cleanup_simulation_start()
 
     # --- Threading Implementation (Commented out) ---
     # threads = []
