@@ -1,5 +1,11 @@
 FROM python:3.13-slim
 
+# Force Python output directly to terminal (no buffering) so logs appear in real-time
+ENV PYTHONUNBUFFERED=1
+
+# Add both /app and /app/app to Python search path (matches PyCharm source roots)
+ENV PYTHONPATH="/app:/app/app"
+
 WORKDIR /app
 
 # Copy and install dependencies
@@ -10,4 +16,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run the simulation module
-CMD ["python", "-m", "app.simulate_truckstop_services"]
+CMD ["python", "-m", "simulate_truckstop_services"]
