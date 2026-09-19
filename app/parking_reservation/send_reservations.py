@@ -8,7 +8,6 @@ from typing import List, Dict
 import requests
 
 from .config import API_URL, INTERVAL_SECONDS, DEFAULT_RESERVATION_DURATION
-from app.time_management.time_manager import get_simulated_time
 
 # Hard-coded array of spotNumbers from "A1" to "A10"
 SPOT_NUMBERS: List[str] = [f"A{i:02}" for i in range(1, 11)]
@@ -19,7 +18,7 @@ def _format_dt(dt: datetime) -> str:
     return dt.isoformat()
 
 def build_payload(spot_number: str) -> Dict[str, str]:
-    now = get_simulated_time()
+    now = datetime.now()
     end_time = now + DEFAULT_RESERVATION_DURATION
     return {
         "spotNumber": spot_number,
